@@ -1,8 +1,43 @@
-# React + Vite
+# Quiz App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React-based quiz application that allows users to answer questions and keep track of their scores. This project utilizes Recoil for state management and CSS for styling.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- User-friendly interface to answer quiz questions
+- Score tracking with feedback on answers
+- Progress bar indicating the user's progress through the quiz
+- Options can be selected only once per question
+- Reset quiz functionality to start over
+
+## Technologies Used
+
+- React
+- Recoil
+- CSS
+- JavaScript
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js and npm installed on your machine
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Lingaraj-Patil/quiz-app.git
+
+2. Navigate to the project directory:
+    ```bash
+    cd quiz-app
+
+3. Install the required dependencies:
+    ```bash
+    npm install
+
+### Run the application
+
+```bash
+npm run dev
